@@ -1,0 +1,106 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    background-color: rgba(141, 96, 184, 0.884);
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+.container{
+    width: 80vw;
+    margin: 0 auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 30vw;
+    margin: 0 auto;
+    height: 50vh;
+    margin-top: 130px;
+    box-shadow: 2px 2px 10px black;
+    background: rgba(0, 0, 0, 0.795);
+}
+form h2{
+    margin-bottom: 40px;
+    color: white;
+}
+form label{
+    display: block;
+    color: white;
+    margin-top: 10px;
+}
+form input {
+    width: 25vw;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+}
+form button{
+    width: 25.1vw;
+    box-sizing: border-box;
+    padding: 13px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+form button:hover{
+    color: white;
+    background-color: rgb(9, 80, 143);
+}
+.email-valid {
+    border: 2px solid #00ff37; /* cor verde */
+  }
+.email-invalid {
+    border: 2px solid #ff0000; /* cor vermelha */
+  }
+
+
+  @media (min-width: 375px) and (max-width: 800px){
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        width: 80vw;
+        margin: 0 auto;
+        height: 60vh;
+        margin-top: 130px;
+        box-shadow: 2px 2px 10px black;
+        background: rgba(0, 0, 0, 0.795);
+    }
+    form label{
+        display: block;
+        color: white;
+        margin-top: 10px;
+    }
+    form input {
+        width: 50vw;
+        box-sizing: border-box;
+        padding: 10px;
+        border: none;
+    }
+    form button{
+        width: 50.1vw;
+        box-sizing: border-box;
+        padding: 13px;
+        margin-top: 20px;
+        cursor: pointer;
+        border: none;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+  }
