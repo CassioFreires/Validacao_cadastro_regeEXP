@@ -4,7 +4,7 @@
 
 <div>
   <h4>Breve descrição do sistema:</h4>
-  <p><i>Validação feita com a expressões regulares!</i></p>
+  <p><i>Validação feita com expressões regulares!</i></p>
 </div>
 
 # Versão desktop 🖥
