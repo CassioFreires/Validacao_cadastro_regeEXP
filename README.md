@@ -19,7 +19,7 @@
 
 ## 💻 Techs usadas
 <ul>
-  <li>HTML</li>
+  <li style="background:blue;">HTML</li>
   <li>CSS</li>
   <li>JAVASCRIPT</li>
 </ul>
