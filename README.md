@@ -1,6 +1,6 @@
 # Validacao_cadastro_regeEXP
 > Projeto para fins didácticos que valida os inputs dos usuários com regeEXP, com JS.
-<a href="https://cassiofreires.github.io/Cronometro/">Ver projeto</a>
+<a href="https://cassiofreires.github.io/Validacao_cadastro_regeEXP/">Ver projeto</a>
 
 <div>
   <h4>Breve descrição do sistema:</h4>
